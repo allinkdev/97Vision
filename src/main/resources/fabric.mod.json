@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ninety-seven-vision",
+  "version": "${version}",
+  "name": "_97_ Vision",
+  "description": "View beans via the eyes of _97_.",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {
+    "homepage": "https://github.com/allinkdev/97Vision/",
+    "sources": "https://github.com/allinkdev/97Vision/",
+    "issues": "https://github.com/allinkdev/97Vision/issues/"
+  },
+  "license": "UNLICENSE",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.allinkdev.ninety_seven_vision.Glasses"
+    ]
+  },
+  "mixins": [
+    "ninety-seven-vision.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
